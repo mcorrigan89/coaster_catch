@@ -1,0 +1,109 @@
+* {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #b22337;
+}
+
+.header {
+  color: #f4c531;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub-header {
+  color: #f4c531;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.rules-header {
+  color: #f4c531;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.copy-group {
+  padding: 0 96px 0 96px;
+  flex: 1;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .copy-group {
+    padding: 0 24px 0 24px;
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.setup-group {
+  padding: 0 96px 0 96px;
+  flex: 1;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .setup-group {
+    padding: 0 24px 0 24px;
+  }
+}
+
+.rules {
+  display: flex;
+  padding: 0 24px 0 24px;
+}
+
+@media (max-width: 768px) {
+  .rules {
+    padding: 0;
+  }
+}
+
+
+.rule-group {
+  padding: 0 72px 0 72px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .rule-group {
+    padding: 0 24px 0 24px;
+  }
+}
+
+
+.block {
+  font-size: 32px;
+}
+
+.text-block-header {
+  display: inline-block;
+  color: #f4c531;
+  font-size: 32px;
+}
+
+.text-block {
+  color: #fff;
+  font-size: 32px;
+}
+
+.text-italic {
+  color: #fff;
+  font-size: 32px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .rules {
+    display: block;
+  }
+}
